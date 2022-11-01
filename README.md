@@ -1,2 +1,2 @@
 # Spraying-booth
-Automatic animal spraying booth
+Animal spraying booth
