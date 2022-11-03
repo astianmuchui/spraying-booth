@@ -8,16 +8,16 @@ Pump spraypump;
 void setup(){
   Serial.begin(9600);
 }
-
 void loop(){
   long h = machine.AnimalHeight();
   Serial.println(h);
-  if(machine.DetectAnimal()){
+  if
+  (machine.DetectAnimal()){
     machine.OpenEntry();
     delay(2000);
-
   }
-  if(machine.AnimalInside()){
+  if
+  (machine.AnimalInside()){
     machine.CloseEntry();
     delay(2000);
 
@@ -31,11 +31,13 @@ void loop(){
     machine.OpenExit();
     delay(20000);
 
-    if(!machine.AnimalInside()){
+    if
+    (!machine.AnimalInside()){
       machine.CloseExit();
-    }else{
+    }
+    else
+    {
       delay(10000);
     }
   }
- 
 }
